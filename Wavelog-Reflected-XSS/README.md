@@ -1,10 +1,13 @@
 <!--
-<style>@page {
-  size: 8.27in 11.69in;
+<style>
+@page {
+  size: a4 portrait;
   margin-top: 1.5cm;
+  margin-bottom: 1.5cm;
   margin-left: 1cm;
   margin-right: 1cm;
-}</style>
+}
+</style>
 -->
 
 # Reflected Cross-Site Scripting (XSS) in Wavelog
