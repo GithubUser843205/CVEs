@@ -17,6 +17,9 @@ CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N
 ### Weakness Enumeration
 CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
 
+## Affected Versions
+Wavelog Version < 1.8.1
+
 ## Impact
 A reflected cross-site scripting (XSS) vulnerability exists in the Wavelog Web Application. This vulnerability allows the execution of malicious JavaScript within an authenticated user’s browser when they click on a malicious link. As a result, phishing attacks could occur, potentially leading to credential theft.
 
